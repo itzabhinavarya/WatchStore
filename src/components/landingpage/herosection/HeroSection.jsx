@@ -1,6 +1,7 @@
 import React from "react";
 import LandingPageVideo from '../../../assets/video/Project 2.mp4'
 import img8 from '../../../assets/watches/img8.jpg'
+import { Link } from "react-router-dom";
 // Sample JSON data for dynamic content
 const heroContent = {
     title: "Luxury Watches, Timeless Style",
@@ -36,9 +37,11 @@ const HeroSection = () => {
                     </h1>
                     <p className="text-lg sm:text-xl mb-6">{heroContent.description}</p>
                     <p className="text-xl italic text-yellow-400 mb-6">{heroContent.slogan}</p>
-                    <button className="px-6 py-3 bg-blue-600 text-white rounded-full text-lg hover:bg-blue-500 transition duration-300">
-                        {heroContent.buttonText}
-                    </button>
+                    <Link to='/watches'>
+                        <button className="px-6 py-3 bg-blue-600 text-white rounded-full text-lg hover:bg-blue-500 transition duration-300">
+                            {heroContent.buttonText}
+                        </button>
+                    </Link>
                 </div>
 
                 <div className="hidden lg:block lg:w-1/4 mt-8 lg:mt-0">
