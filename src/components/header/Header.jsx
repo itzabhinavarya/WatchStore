@@ -11,7 +11,7 @@ const Header = () => {
 
     return (
         <header className="bg-gray-800 text-white shadow-md ">
-            <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-10 py-8 flex items-center justify-between">
+            <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-10 py-5 flex items-center justify-between">
                 {/* Left side - Logo */}
                 <div className="text-2xl font-bold">
                     <Link to="/" className="hover:text-gray-400">
