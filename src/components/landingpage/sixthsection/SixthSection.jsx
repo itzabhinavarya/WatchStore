@@ -1,35 +1,54 @@
 import React from 'react';
+import img27 from "../../../assets/watches/img27.jpg";
+import img23 from "../../../assets/watches/img23.jpg";
+import img18 from "../../../assets/watches/img18.jpg";
+import img8 from "../../../assets/watches/img8.jpg";
+import img5 from "../../../assets/watches/img5.jpg";
+import img14 from "../../../assets/watches/img14.jpg";
+import Card from '../../../utils/Card';
 
 // Sample JSON data for featured watches
 const featuredWatches = [
   {
     id: 1,
-    name: "Luxury Watch 1",
-    description: "A stylish luxury watch with stainless steel band.",
-    price: "$199",
-    image: "https://via.placeholder.com/300x200?text=Watch+1",
+    title: "Titan X1",
+    description: "A classic design that never goes out of style. Perfect for formal and casual occasions.",
+    image: img27,
+    price: 199.99,
+    rating: 4.5,
+    tags: ["Classic", "Formal", "Stylish"],
+    available: true,
   },
   {
     id: 2,
-    name: "Sport Watch 2",
-    description: "A durable sports watch for active individuals.",
-    price: "$129",
-    image: "https://via.placeholder.com/300x200?text=Watch+2",
+    title: "Fossil Gen 5",
+    description: "A smart watch with all the features you need to stay connected and organized.",
+    image: img23,
+    price: 349.99,
+    rating: 4.8,
+    tags: ["Smartwatch", "Modern", "Functional"],
+    available: true,
   },
   {
     id: 3,
-    name: "Classic Watch 3",
-    description: "A timeless classic with leather straps.",
-    price: "$159",
-    image: "https://via.placeholder.com/300x200?text=Watch+3",
+    title: "Casio Edifice",
+    description: "Sporty and stylish, the Casio Edifice is the perfect watch for the modern man.",
+    image: img18,
+    price: 129.99,
+    rating: 4.2,
+    tags: ["Sporty", "Stylish", "Casual"],
+    available: true,
   },
   {
     id: 4,
-    name: "Modern Watch 4",
-    description: "A modern design with a sleek look and smart features.",
-    price: "$250",
-    image: "https://via.placeholder.com/300x200?text=Watch+4",
-  },
+    title: "Rolex Submariner",
+    description: "A luxury dive watch known for its exceptional quality and timeless appeal.",
+    image: img8,
+    price: 10999.99,
+    rating: 5.0,
+    tags: ["Luxury", "Premium", "Dive"],
+    available: true,
+  }
 ];
 
 const SixthSection = () => {
@@ -41,21 +60,7 @@ const SixthSection = () => {
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {featuredWatches.map((watch) => (
-            <div
-              key={watch.id}
-              className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition duration-300"
-            >
-              <img
-                src={watch.image}
-                alt={watch.name}
-                className="w-full h-48 object-cover"
-              />
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-gray-800 mb-2">{watch.name}</h3>
-                <p className="text-gray-600 mb-4">{watch.description}</p>
-                <span className="text-lg font-bold text-gray-800">{watch.price}</span>
-              </div>
-            </div>
+            <Card key={watch.id} {...watch} />
           ))}
         </div>
       </div>

@@ -11,7 +11,7 @@ const Header = () => {
 
     return (
         <header className="bg-gray-800 text-white shadow-md ">
-            <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-0 py-8 flex items-center justify-between">
+            <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-10 py-8 flex items-center justify-between">
                 {/* Left side - Logo */}
                 <div className="text-2xl font-bold">
                     <Link to="/" className="hover:text-gray-400">
@@ -27,6 +27,8 @@ const Header = () => {
                     <Link to="/about" className="hover:text-gray-400">
                         About
                     </Link>
+                    <Link to="/watches" className="hover:text-gray-400">Watches</Link>
+
                     <Link to="/services" className="hover:text-gray-400">
                         Services
                     </Link>
@@ -49,6 +51,7 @@ const Header = () => {
             <div className={`md:hidden ${isMenuOpen ? "block" : "hidden"} bg-gray-800 text-white py-4 px-6 space-y-4`}>
                 <Link to="/" className="block hover:text-gray-400">Home</Link>
                 <Link to="/about" className="block hover:text-gray-400">About</Link>
+                <Link to="/watches" className="block hover:text-gray-400">Watches</Link>
                 <Link to="/services" className="block hover:text-gray-400">Services</Link>
                 <Link to="/contact" className="block hover:text-gray-400">Contact</Link>
             </div>
