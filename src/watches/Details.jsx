@@ -16,6 +16,15 @@ const Details = () => {
     // Similar products (excluding the current product)
     const similarProducts = watchData.filter((item) => item.id !== parseInt(id));
 
+    // Shuffle the array and pick the first 4 items
+    const getRandomProducts = (products, count) => {
+        return products
+            .sort(() => Math.random() - 0.5) // Randomly shuffle
+            .slice(0, count); // Take the first 'count' items
+    };
+
+    const randomProducts = getRandomProducts(similarProducts, 4);
+
     if (!watch) {
         return (
             <div className="min-h-screen flex items-center justify-center">
@@ -106,7 +115,7 @@ const Details = () => {
             {/* Similar Products */}
             <h2 className="text-2xl font-bold text-gray-800 mt-10 mb-6">Similar Products</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-                {similarProducts.map((product) => (
+                {randomProducts.map((product) => (
                     <Card key={product.id} {...product} />
                 ))}
             </div>
