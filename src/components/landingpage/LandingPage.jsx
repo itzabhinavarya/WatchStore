@@ -11,7 +11,7 @@ const LandingPage = () => {
     return (
         <>
             <HeroSection />
-            <Brands />
+            {/* <Brands /> */}
             <ProductSection />
             <FourthSection />
             <FifthSection />

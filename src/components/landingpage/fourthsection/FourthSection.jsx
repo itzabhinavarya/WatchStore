@@ -1,4 +1,10 @@
 import React from 'react';
+import img27 from '../../../assets/watches/img27.jpg'
+import img23 from '../../../assets/watches/img23.jpg'
+import img18 from '../../../assets/watches/img18.jpg'
+import img8 from '../../../assets/watches/img8.jpg'
+import img5 from '../../../assets/watches/img5.jpg'
+import img14 from '../../../assets/watches/img14.jpg'
 
 // Sample JSON data for watches
 const products = [
@@ -6,37 +12,37 @@ const products = [
         id: 1,
         name: "Titan X1",
         description: "A classic design that never goes out of style. Perfect for formal and casual occasions.",
-        image: "https://via.placeholder.com/300x200?text=Titan+X1", // Replace with actual image link
+        image: img27, // Replace with actual image link
     },
     {
         id: 2,
         name: "Fossil Gen 5",
         description: "A smart watch with all the features you need to stay connected and organized.",
-        image: "https://via.placeholder.com/300x200?text=Fossil+Gen+5", // Replace with actual image link
+        image: img23, // Replace with actual image link
     },
     {
         id: 3,
         name: "Casio Edifice",
         description: "Sporty and stylish, the Casio Edifice is the perfect watch for the modern man.",
-        image: "https://via.placeholder.com/300x200?text=Casio+Edifice", // Replace with actual image link
+        image: img18, // Replace with actual image link
     },
     {
         id: 4,
         name: "Rolex Submariner",
         description: "A luxury dive watch known for its exceptional quality and timeless appeal.",
-        image: "https://via.placeholder.com/300x200?text=Rolex+Submariner", // Replace with actual image link
+        image: img8, // Replace with actual image link
     },
     {
         id: 5,
         name: "Seiko 5",
         description: "A budget-friendly automatic watch with a robust design and reliable performance.",
-        image: "https://via.placeholder.com/300x200?text=Seiko+5", // Replace with actual image link
+        image: img5, // Replace with actual image link
     },
     {
         id: 6,
         name: "Timex Weekender",
         description: "A simple yet stylish watch that’s great for everyday wear.",
-        image: "https://via.placeholder.com/300x200?text=Timex+Weekender", // Replace with actual image link
+        image: img14, // Replace with actual image link
     },
 ];
 

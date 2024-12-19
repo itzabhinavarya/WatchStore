@@ -1,4 +1,8 @@
 import React from 'react';
+import unnamed from '../../../assets/watches/unnamed.jpg'
+import img4 from '../../../assets/watches/img4.jpg'
+import img5 from '../../../assets/watches/img5.jpg'
+import img19 from '../../../assets/watches/img19.jpg'
 
 // Sample JSON data for products
 const products = [
@@ -6,28 +10,28 @@ const products = [
         id: 1,
         name: "Titan X1",
         description: "A classic design that never goes out of style. Perfect for formal and casual occasions.",
-        image: "https://via.placeholder.com/300x300?text=Titan+X1", // Replace with actual image URL
+        image: unnamed, // Replace with actual image URL
         reverse: false,
     },
     {
         id: 2,
         name: "Fossil Gen 5",
         description: "A smart watch with all the features you need to stay connected and organized.",
-        image: "https://via.placeholder.com/300x300?text=Fossil+Gen+5", // Replace with actual image URL
+        image: img4, // Replace with actual image URL
         reverse: true,
     },
     {
         id: 3,
         name: "Casio Edifice",
         description: "Sporty and stylish, the Casio Edifice is the perfect watch for the modern man.",
-        image: "https://via.placeholder.com/300x300?text=Casio+Edifice", // Replace with actual image URL
+        image: img5, // Replace with actual image URL
         reverse: false,
     },
     {
         id: 4,
         name: "Rolex Submariner",
         description: "A luxury dive watch known for its exceptional quality and timeless appeal.",
-        image: "https://via.placeholder.com/300x300?text=Rolex+Submariner", // Replace with actual image URL
+        image: img19, // Replace with actual image URL
         reverse: true,
     },
 ];

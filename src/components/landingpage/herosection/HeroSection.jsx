@@ -1,13 +1,14 @@
 import React from "react";
-
+import LandingPageVideo from '../../../assets/video/Project 2.mp4'
+import img8 from '../../../assets/watches/img8.jpg'
 // Sample JSON data for dynamic content
 const heroContent = {
     title: "Luxury Watches, Timeless Style",
     description: "Explore India's finest collection of watches. Elevate your style with precision and elegance.",
     slogan: "Crafted for the Moment",
     buttonText: "Shop Now",
-    videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4", // Replace with your own video
-    imageUrl: "https://via.placeholder.com/400x400?text=Luxury+Watch", // Replace with your own image
+    videoUrl: LandingPageVideo, // Replace with your own video
+    imageUrl: img8, // Replace with your own image
 };
 
 const HeroSection = () => {
@@ -25,11 +26,10 @@ const HeroSection = () => {
             </video>
 
             {/* Overlay */}
-            <div className="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
+            <div className="absolute top-0 left-0 w-full h-full bg-black opacity-60"></div>
 
             {/* Content */}
             <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between px-6 md:px-16 lg:px-32 h-full text-center lg:text-left">
-                {/* Left Side - Text */}
                 <div className="text-white max-w-lg">
                     <h1 className="text-4xl sm:text-5xl font-bold leading-tight mb-4">
                         {heroContent.title}
@@ -41,8 +41,7 @@ const HeroSection = () => {
                     </button>
                 </div>
 
-                {/* Right Side - Image */}
-                <div className="hidden lg:block lg:w-1/3 mt-8 lg:mt-0">
+                <div className="hidden lg:block lg:w-1/4 mt-8 lg:mt-0">
                     <img
                         src={heroContent.imageUrl}
                         alt="Luxury Watch"
