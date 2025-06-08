@@ -1,10 +1,4 @@
 import React from "react";
-import img27 from "../../../assets/watches/img27.jpg";
-import img23 from "../../../assets/watches/img23.jpg";
-import img18 from "../../../assets/watches/img18.jpg";
-import img8 from "../../../assets/watches/img8.jpg";
-import img5 from "../../../assets/watches/img5.jpg";
-import img14 from "../../../assets/watches/img14.jpg";
 import Card from "../../../utils/Card";
 
 // Sample JSON data for featured watches

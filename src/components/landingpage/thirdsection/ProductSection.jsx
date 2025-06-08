@@ -1,6 +1,4 @@
 import React from "react";
-import img5 from "../../../assets/watches/img5.jpg";
-import img19 from "../../../assets/watches/img19.jpg";
 
 // Sample JSON data for products
 const products = [

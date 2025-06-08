@@ -18,7 +18,7 @@ const Services = () => {
                 {/* Watch Customization */}
                 <div className="flex flex-col items-center text-center bg-white p-8 rounded-xl shadow-xl transition-transform transform hover:scale-105 hover:shadow-2xl">
                     <img
-                        src="https://via.placeholder.com/80?text=Customization"
+                        src="https://cdn5.vectorstock.com/i/1000x1000/55/84/customization-icon-from-business-bicolor-set-vector-5415584.jpg"
                         alt="Watch Customization"
                         className="w-16 h-16 mb-4"
                     />
@@ -31,7 +31,7 @@ const Services = () => {
                 {/* Fast & Secure Shipping */}
                 <div className="flex flex-col items-center text-center bg-white p-8 rounded-xl shadow-xl transition-transform transform hover:scale-105 hover:shadow-2xl">
                     <img
-                        src="https://via.placeholder.com/80?text=Shipping"
+                        src="https://www.freeiconspng.com/uploads/secure-icon-png-30.png"
                         alt="Fast Shipping"
                         className="w-16 h-16 mb-4"
                     />
@@ -44,7 +44,7 @@ const Services = () => {
                 {/* Easy Returns & Exchanges */}
                 <div className="flex flex-col items-center text-center bg-white p-8 rounded-xl shadow-xl transition-transform transform hover:scale-105 hover:shadow-2xl">
                     <img
-                        src="https://via.placeholder.com/80?text=Returns"
+                        src="https://cdn-icons-png.flaticon.com/512/9226/9226484.png"
                         alt="Easy Returns"
                         className="w-16 h-16 mb-4"
                     />
@@ -57,7 +57,7 @@ const Services = () => {
                 {/* Watch Repair & Maintenance */}
                 <div className="flex flex-col items-center text-center bg-white p-8 rounded-xl shadow-xl transition-transform transform hover:scale-105 hover:shadow-2xl">
                     <img
-                        src="https://via.placeholder.com/80?text=Repair"
+                        src="https://cdn-icons-png.flaticon.com/512/9759/9759793.png"
                         alt="Watch Repair"
                         className="w-16 h-16 mb-4"
                     />

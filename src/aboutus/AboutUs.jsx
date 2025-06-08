@@ -15,7 +15,7 @@ const AboutUs = () => {
                 </p>
                 <div className="relative">
                     <img
-                        src="https://via.placeholder.com/1500x800?text=Watch+Store+Image"
+                        src="https://www.watchpro.com/2021/01/Watch-Collection.jpg"
                         alt="Watch Collection"
                         className="w-full h-96 object-cover rounded-lg shadow-xl"
                     />
@@ -39,7 +39,7 @@ const AboutUs = () => {
                 </div>
                 <div className="flex justify-center items-center">
                     <img
-                        src="https://via.placeholder.com/800x600?text=Our+Mission+Image"
+                        src="https://t4.ftcdn.net/jpg/00/96/54/53/360_F_96545306_cX6N4Fv2TTVRMKahA3aoCvxlUOGm2KkV.jpg"
                         alt="Mission"
                         className="w-full h-auto rounded-lg shadow-lg transition-transform transform hover:scale-105"
                     />
@@ -59,7 +59,7 @@ const AboutUs = () => {
                 <div className="grid md:grid-cols-3 gap-8 p-6">
                     <div className="flex flex-col items-center text-center bg-white p-8 rounded-xl shadow-xl transition-transform transform hover:scale-105 hover:shadow-2xl">
                         <img
-                            src="https://via.placeholder.com/80?text=Quality"
+                            src="https://t4.ftcdn.net/jpg/06/76/85/95/360_F_676859596_PliJzLqgSah5lXsM7HDwTzu5NLQIIJtv.jpg"
                             alt="Quality Craftsmanship"
                             className="w-16 h-16 mb-4"
                         />
@@ -70,7 +70,7 @@ const AboutUs = () => {
                     </div>
                     <div className="flex flex-col items-center text-center bg-white p-8 rounded-xl shadow-xl transition-transform transform hover:scale-105 hover:shadow-2xl">
                         <img
-                            src="https://via.placeholder.com/80?text=Authentic"
+                            src="https://media.istockphoto.com/id/1135795506/vector/powerful-100-customer-satisfaction-guaranteed-badge-with-red-ribbon.jpg?s=612x612&w=0&k=20&c=cz0JVTfFjVik-jVr97LiV1GWLxzOpGwGYkvwp8b0yIc="
                             alt="Authenticity Guaranteed"
                             className="w-16 h-16 mb-4"
                         />
@@ -81,7 +81,7 @@ const AboutUs = () => {
                     </div>
                     <div className="flex flex-col items-center text-center bg-white p-8 rounded-xl shadow-xl transition-transform transform hover:scale-105 hover:shadow-2xl">
                         <img
-                            src="https://via.placeholder.com/80?text=Service"
+                            src="https://cdn-icons-png.freepik.com/512/4326/4326650.png"
                             alt="Customer Service"
                             className="w-16 h-16 mb-4"
                         />

@@ -1,10 +1,4 @@
 import React from "react";
-import img27 from "../../../assets/watches/img27.jpg";
-import img23 from "../../../assets/watches/img23.jpg";
-import img18 from "../../../assets/watches/img18.jpg";
-import img8 from "../../../assets/watches/img8.jpg";
-import img5 from "../../../assets/watches/img5.jpg";
-import img14 from "../../../assets/watches/img14.jpg";
 import Card from "../../../utils/Card";
 
 // Updated JSON data with pricing and tags
@@ -65,7 +59,7 @@ const products = [
     title: "Seiko 5",
     description:
       "A budget-friendly automatic watch with a robust design and reliable performance.",
-    image: img5,
+    image: "https://www.seikowatches.com/in-en/-/media/Images/Product--Image/All/Seiko/2023/02/02/11/42/SPB381J1/SPB381J1.png?mh=1200&mw=1200",
     price: 79.99,
     rating: 3.8,
     tags: ["Budget", "Automatic", "Reliable"],
