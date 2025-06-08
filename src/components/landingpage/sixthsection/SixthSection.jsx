@@ -1,19 +1,22 @@
-import React from 'react';
+import React from "react";
 import img27 from "../../../assets/watches/img27.jpg";
 import img23 from "../../../assets/watches/img23.jpg";
 import img18 from "../../../assets/watches/img18.jpg";
 import img8 from "../../../assets/watches/img8.jpg";
 import img5 from "../../../assets/watches/img5.jpg";
 import img14 from "../../../assets/watches/img14.jpg";
-import Card from '../../../utils/Card';
+import Card from "../../../utils/Card";
 
 // Sample JSON data for featured watches
 const featuredWatches = [
   {
     id: 1,
     title: "Titan X1",
-    description: "A classic design that never goes out of style. Perfect for formal and casual occasions.",
-    image: img27,
+    description:
+      "A classic design that never goes out of style. Perfect for formal and casual occasions.",
+    image:
+      "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw11e7d01c/images/Titan/Catalog/1825SL15_2.jpg?sw=600&sh=600", // Replace with actual image URL
+
     price: 199.99,
     rating: 4.5,
     tags: ["Classic", "Formal", "Stylish"],
@@ -22,8 +25,10 @@ const featuredWatches = [
   {
     id: 2,
     title: "Fossil Gen 5",
-    description: "A smart watch with all the features you need to stay connected and organized.",
-    image: img23,
+    description:
+      "A smart watch with all the features you need to stay connected and organized.",
+    image: "https://m.media-amazon.com/images/I/51VuTEaLL5L._AC_UY1000_.jpg", // Replace with actual image URL
+
     price: 349.99,
     rating: 4.8,
     tags: ["Smartwatch", "Modern", "Functional"],
@@ -32,8 +37,11 @@ const featuredWatches = [
   {
     id: 3,
     title: "Casio Edifice",
-    description: "Sporty and stylish, the Casio Edifice is the perfect watch for the modern man.",
-    image: img18,
+    description:
+      "Sporty and stylish, the Casio Edifice is the perfect watch for the modern man.",
+    image:
+      "https://media.casioindiashop.com/assets/products-images/big-image/ED369.webp?scale.height=400", // Replace with actual image URL
+
     price: 129.99,
     rating: 4.2,
     tags: ["Sporty", "Stylish", "Casual"],
@@ -42,13 +50,16 @@ const featuredWatches = [
   {
     id: 4,
     title: "Rolex Submariner",
-    description: "A luxury dive watch known for its exceptional quality and timeless appeal.",
-    image: img8,
+    description:
+      "A luxury dive watch known for its exceptional quality and timeless appeal.",
+    image:
+      "https://timeavenue.com/wp-content/uploads/2025/05/m126619lb-0003-1.webp", // Replace with actual image URL
+
     price: 10999.99,
     rating: 5.0,
     tags: ["Luxury", "Premium", "Dive"],
     available: true,
-  }
+  },
 ];
 
 const SixthSection = () => {

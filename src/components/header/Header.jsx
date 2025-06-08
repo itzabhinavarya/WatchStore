@@ -15,7 +15,7 @@ const Header = () => {
                 {/* Left side - Logo */}
                 <div className="text-2xl font-bold">
                     <Link to="/" className="hover:text-gray-400">
-                        ARYSANCE
+                        WatchStore
                     </Link>
                 </div>
 
