@@ -9,6 +9,10 @@
 ## 📸 Preview
 
 <image src='./public/landingpage.png'/>
+<image src='./public/about.png'/>
+<image src='./public/watch.png'/>
+<image src='./public/services.png'/>
+<image src='./public/contact.png'/>
 
 
 ---
