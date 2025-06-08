@@ -1,8 +1,43 @@
-# React + Vite
+# ⌚️ WatchStore – Luxury Watches, Timeless Style
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**WatchStore** is a modern, responsive watch e-commerce landing page built using **React**, **Vite**, and **Tailwind CSS**. It showcases a luxury collection of branded watches, with smooth UI/UX, clean design, and responsive layout.
 
-Currently, two official plugins are available:
+> “Luxury Watches, Timeless Style – Crafted for the Moment.”
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## 📸 Preview
+
+![WatchStore Preview]
+![Uploading screencapture-localhost-5173-2025-06-08-14_28_49.png…]()
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** – Component-based library for building user interfaces
+- **Vite** – Next-generation frontend tooling for fast builds
+- **Tailwind CSS** – Utility-first CSS framework for rapid styling
+
+---
+
+## 🚀 Getting Started
+
+Follow the steps below to run the project locally.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/watchstore.git
+cd watchstore
+```
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+3. Start the Development Server
+```bash
+npm run dev
+```
