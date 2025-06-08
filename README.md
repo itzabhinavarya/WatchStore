@@ -8,7 +8,6 @@
 
 ## 📸 Preview
 
-![WatchStore Preview]
 ![Uploading screencapture-localhost-5173-2025-06-08-14_28_49.png…]()
 
 
